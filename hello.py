@@ -23,12 +23,3 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-
-
-
-# default for routes
-# change hard code
-# sanitize input for get variable in flask
-# github project
-
-
