@@ -21,6 +21,6 @@ def name_info(name):
         return redirect(url_for('default_route'))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+      app.run(host='0.0.0.0', port=80, debug=True)
 
 
