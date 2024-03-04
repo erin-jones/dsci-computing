@@ -20,15 +20,6 @@ def name_info(name):
         return redirect(url_for('default_route'))
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
-
-
-
-
-# default for routes
-# change hard code
-# sanitize input for get variable in flask
-# github project
+    app.run(host='20.115.85.180', port=5000, debug=True)
 
 
