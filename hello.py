@@ -1,4 +1,5 @@
-from flask import Flask, escape, redirect, url_for
+from markupsafe import escape
+from flask import Flask, redirect, url_for
 
 app = Flask(__name__)
 
